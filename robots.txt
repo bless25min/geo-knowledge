@@ -1,0 +1,24 @@
+User-agent: *
+Allow: /
+
+# AI 搜尋引擎友善設定
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+# Sitemap
+Sitemap: https://geo.25min.co/sitemap.xml
+
+# 爬取延遲設定
+Crawl-delay: 1

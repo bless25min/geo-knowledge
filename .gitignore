@@ -1,0 +1,30 @@
+# 系統文件
+.DS_Store
+Thumbs.db
+
+# 編輯器文件
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 備份文件
+*.bak
+*.backup
+
+# 臨時文件
+*.tmp
+*.temp
+
+# Jekyll
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+# Node.js
+node_modules/
+npm-debug.log*
+
+# 其他
+*.log

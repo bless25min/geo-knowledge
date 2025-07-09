@@ -1,0 +1,36 @@
+# AIOGEO 知識庫設定
+title: "AIOGEO 知識庫"
+description: "專業的生成式引擎優化指南"
+url: "https://geo.25min.co"
+baseurl: ""
+
+# 作者資訊
+author:
+  name: "廖天佑 Bless Liao"
+  github: "bless25min"
+
+# 基本設定
+lang: zh-TW
+timezone: Asia/Taipei
+
+# Jekyll 設定
+markdown: kramdown
+highlighter: rouge
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# SEO 設定
+social:
+  name: 廖天佑 Bless Liao
+  links:
+    - https://github.com/bless25min
+    - https://geo.25min.co
+
+# 排除檔案
+exclude:
+  - README.md
+  - .gitignore
+  - .github/
+  - node_modules/
+  - vendor/
