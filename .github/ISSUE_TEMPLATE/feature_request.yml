@@ -1,0 +1,44 @@
+name: 💡 Feature Request
+description: 建議新功能或改善
+title: "[Feature] "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感謝您的建議！請詳細描述您希望看到的新功能。
+  
+  - type: textarea
+    id: problem
+    attributes:
+      label: 問題描述
+      description: 這個功能要解決什麼問題？
+      placeholder: 目前遇到的困難或需求...
+    validations:
+      required: true
+  
+  - type: textarea
+    id: solution
+    attributes:
+      label: 建議解決方案
+      description: 您希望如何解決這個問題？
+      placeholder: 描述您理想中的解決方案...
+    validations:
+      required: true
+  
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: 其他選擇
+      description: 您考慮過其他替代方案嗎？
+  
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: 確認事項
+      description: 請確認以下事項
+      options:
+        - label: 我已經搜尋過現有的 issues，確認沒有重複
+          required: true
+        - label: 這個建議與 GEO 知識庫的目標相符
+          required: true
