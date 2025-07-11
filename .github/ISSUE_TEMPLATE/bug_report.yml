@@ -1,0 +1,53 @@
+name: 🐛 Bug Report
+description: 回報內容錯誤或技術問題
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感謝您回報問題！請詳細描述遇到的問題，這將幫助我們快速修正。
+  
+  - type: textarea
+    id: description
+    attributes:
+      label: 問題描述
+      description: 詳細描述您遇到的問題
+      placeholder: 請描述問題的具體情況...
+    validations:
+      required: true
+  
+  - type: textarea
+    id: steps
+    attributes:
+      label: 重現步驟
+      description: 如何重現這個問題？
+      placeholder: |
+        1. 前往 '...'
+        2. 點擊 '...'
+        3. 滾動到 '...'
+        4. 看到錯誤
+    validations:
+      required: true
+  
+  - type: textarea
+    id: expected
+    attributes:
+      label: 預期行為
+      description: 您預期應該發生什麼？
+    validations:
+      required: true
+  
+  - type: dropdown
+    id: browsers
+    attributes:
+      label: 瀏覽器
+      description: 您使用的瀏覽器？
+      options:
+        - Chrome
+        - Firefox
+        - Safari
+        - Edge
+        - 其他
+    validations:
+      required: true
