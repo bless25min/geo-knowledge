@@ -1,0 +1,36 @@
+name: 📝 Content Suggestion
+description: 建議新內容或改善現有內容
+title: "[Content] "
+labels: ["content"]
+body:
+  - type: dropdown
+    id: content_type
+    attributes:
+      label: 內容類型
+      description: 您要建議的內容類型？
+      options:
+        - 新文章
+        - 工具改善
+        - 現有內容修正
+        - 案例研究
+        - 其他
+    validations:
+      required: true
+  
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: 內容建議
+      description: 詳細描述您的內容建議
+      placeholder: 請描述您希望看到的內容...
+    validations:
+      required: true
+  
+  - type: textarea
+    id: value
+    attributes:
+      label: 價值說明
+      description: 這個內容對用戶有什麼幫助？
+      placeholder: 解釋這個內容的價值和受益對象...
+    validations:
+      required: true
