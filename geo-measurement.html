@@ -84,16 +84,7 @@ Optimizer分析工具、五大引用潛力指標量化評估、ROI計算模型�
 <p>隨著ChatGPT、Claude、Perplexity等AI工具成為主流搜尋方式，傳統的SEO指標已無法完整反映內容的真實價值。<strong>AI引用率</strong>將成為新的關鍵指標，直接影響品牌在AI驅動世界中的可見性。</p>
 <section id="搜尋行為轉移趨勢" class="market-data">
 <h4>🔄 搜尋行為轉移趨勢</h4>
-<pre class="mermaid"><code>graph TB
-    A[2024年搜尋生態] --&gt; B[2025年預測]
-    A --&gt; A1[Google搜尋 75%]
-    A --&gt; A2[AI對話查詢 25%]
-    B --&gt; B1[Google搜尋 55%]
-    B --&gt; B2[AI對話查詢 45%]
-    A2 --&gt; C[直接答案需求]
-    B2 --&gt; D[引用來源重要性⬆️]
-    C --&gt; E[內容被AI引用 = 品牌曝光]
-    D --&gt; E</code></pre>
+<img src="assets/images/搜尋行為轉移趨勢.png" alt="搜尋行為轉移趨勢圖" style="width: 100%; max-width: 800px; height: auto; margin: 20px 0;">
 <p><strong>關鍵統計數據：</strong> -
 <strong>AI對話查詢年增長率</strong>：158% -
 <strong>企業決策者使用AI工具比例</strong>：67% -
@@ -165,28 +156,7 @@ Optimizer 工具架構</h2>
 Optimizer利用大型語言模型的分析能力，結合<strong>AIO意圖對齊</strong>與<strong>GEO引用評估</strong>的邏輯，對每句內容產生結構化的評估報告。</p>
 <section id="四層分析架構" class="tool-architecture">
 <h4>🔄 四層分析架構</h4>
-<pre class="mermaid"><code>graph TD
-    A[內容輸入] --&gt; B[語義類型分析]
-    B --&gt; C[召回層級預測]  
-    C --&gt; D[可見性指標評估]
-    D --&gt; E[引用潛力量化]
-    E --&gt; F[優化建議生成]
-    B --&gt; B1[敘述型 - 事實描述]
-    B --&gt; B2[定義型 - 概念解釋]
-    B --&gt; B3[步驟型 - 操作指導]
-    B --&gt; B4[預測型 - 趨勢分析]
-    C --&gt; C1[Step 1: 權威資料 90-95%]
-    C --&gt; C2[Step 2: 社群語料 60-70%]
-    C --&gt; C3[Step 3: 影音轉錄 40-50%]
-    C --&gt; C4[Step 4: 模型推測 10-20%]
-    D --&gt; D1[語意錨定度 &gt;0.8]
-    D --&gt; D2[語境觸發力 &gt;0.7]
-    D --&gt; D3[重組潛力 &gt;0.65]
-    E --&gt; E1[AIO語義集中度 &gt;0.75]
-    E --&gt; E2[GEO引用潛力 &gt;0.70]
-    E --&gt; E3[結構化指標 &gt;0.80]
-    E --&gt; E4[模組化潛力 &gt;0.65]
-    E --&gt; E5[多模態潛力 &gt;0.60]</code></pre>
+<img src="assets/images/GEO Optimizer中的內容分析流失.png" alt="GEO Optimizer四層分析架構" style="width: 100%; max-width: 800px; height: auto; margin: 20px 0;">
 </section>
 <h3 id="五大分析維度詳解">📋 五大分析維度詳解</h3>
 <h4 id="語義類型識別">1. 語義類型識別</h4>
@@ -215,35 +185,35 @@ Optimizer利用大型語言模型的分析能力，結合<strong>AIO意圖對齊
 <td>客觀描述事實或現象</td>
 <td>⭐⭐⭐⭐</td>
 <td>增加數據支持</td>
-<td>“GEO策略能提升AI引用率40%”</td>
+<td>"GEO策略能提升AI引用率40%"</td>
 </tr>
 <tr class="even">
 <td><strong>定義型</strong></td>
 <td>解釋概念或術語含義</td>
 <td>⭐⭐⭐⭐⭐</td>
 <td>權威來源引用</td>
-<td>“GEO是針對AI搜尋引擎的優化策略”</td>
+<td>"GEO是針對AI搜尋引擎的優化策略"</td>
 </tr>
 <tr class="odd">
 <td><strong>步驟型</strong></td>
 <td>描述操作流程或方法</td>
 <td>⭐⭐⭐⭐⭐</td>
 <td>結構化呈現</td>
-<td>“第一步：分析內容結構…”</td>
+<td>"第一步：分析內容結構…"</td>
 </tr>
 <tr class="even">
 <td><strong>提問型</strong></td>
 <td>提出問題或疑慮</td>
 <td>⭐⭐⭐</td>
 <td>配對答案提供</td>
-<td>“如何提升AI引用率？”</td>
+<td>"如何提升AI引用率？"</td>
 </tr>
 <tr class="odd">
 <td><strong>預測型</strong></td>
 <td>推測未來趨勢或結果</td>
 <td>⭐⭐</td>
 <td>增強事實基礎</td>
-<td>“AI搜尋將成為主流趨勢”</td>
+<td>"AI搜尋將成為主流趨勢"</td>
 </tr>
 </tbody>
 </table>
@@ -415,24 +385,24 @@ class="sourceCode markdown"><code class="sourceCode markdown"><span id="cb7-1"><
 <span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="va">[ ]</span> H2-H6標題層級邏輯清晰</span>
 <span id="cb7-6"><a href="#cb7-6" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="va">[ ]</span> 標題包含關鍵詞但不過度堆疊</span>
 <span id="cb7-7"><a href="#cb7-7" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="va">[ ]</span> 標題能夠概括段落核心內容</span>
-<span id="cb7-8"><a href="#cb7-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-8"><a href="#cb7-8" aria-hidden="true" tabindex="-1"></a"></span>
 <span id="cb7-9"><a href="#cb7-9" aria-hidden="true" tabindex="-1"></a><span class="fu">### 📝 段落組織評估</span></span>
 <span id="cb7-10"><a href="#cb7-10" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="va">[ ]</span> 每段落圍繞單一要點展開</span>
 <span id="cb7-11"><a href="#cb7-11" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="va">[ ]</span> 段落長度適中（3-7句話）</span>
 <span id="cb7-12"><a href="#cb7-12" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="va">[ ]</span> 段落間邏輯連接清晰</span>
 <span id="cb7-13"><a href="#cb7-13" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="va">[ ]</span> 過渡句使用恰當</span>
-<span id="cb7-14"><a href="#cb7-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-14"><a href="#cb7-14" aria-hidden="true" tabindex="-1"></a"></span>
 <span id="cb7-15"><a href="#cb7-15" aria-hidden="true" tabindex="-1"></a><span class="fu">### 📊 資訊呈現評估</span></span>
-<span id="cb7-16"><a href="#cb7-16" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="va">[ ]</span> 複雜資訊使用表格或圖表</span>
-<span id="cb7-17"><a href="#cb7-17" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="va">[ ]</span> 重要資訊使用列表突出</span>
-<span id="cb7-18"><a href="#cb7-18" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="va">[ ]</span> 數據和統計使用視覺化呈現</span>
-<span id="cb7-19"><a href="#cb7-19" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="va">[ ]</span> 引用格式統一規範</span>
-<span id="cb7-20"><a href="#cb7-20" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-16"><a href="#cb7-16" aria-hidden="true" tabindex="-1"></a"><span class="ss">- </span><span class="va">[ ]</span> 複雜資訊使用表格或圖表</span>
+<span id="cb7-17"><a href="#cb7-17" aria-hidden="true" tabindex="-1"></a"><span class="ss">- </span><span class="va">[ ]</span> 重要資訊使用列表突出</span>
+<span id="cb7-18"><a href="#cb7-18" aria-hidden="true" tabindex="-1"></a"><span class="ss">- </span><span class="va">[ ]</span> 數據和統計使用視覺化呈現</span>
+<span id="cb7-19"><a href="#cb7-19" aria-hidden="true" tabindex="-1"></a"><span class="ss">- </span><span class="va">[ ]</span> 引用格式統一規範</span>
+<span id="cb7-20"><a href="#cb7-20" aria-hidden="true" tabindex="-1"></a"></span>
 <span id="cb7-21"><a href="#cb7-21" aria-hidden="true" tabindex="-1"></a><span class="fu">### 🔗 導航設計評估</span></span>
-<span id="cb7-22"><a href="#cb7-22" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="va">[ ]</span> 內容目錄清晰完整</span>
-<span id="cb7-23"><a href="#cb7-23" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="va">[ ]</span> 內部連結邏輯相關</span>
-<span id="cb7-24"><a href="#cb7-24" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="va">[ ]</span> 外部連結權威可信</span>
-<span id="cb7-25"><a href="#cb7-25" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="va">[ ]</span> 相關文章推薦適當</span></code></pre></div>
+<span id="cb7-22"><a href="#cb7-22" aria-hidden="true" tabindex="-1"></a"><span class="ss">- </span><span class="va">[ ]</span> 內容目錄清晰完整</span>
+<span id="cb7-23"><a href="#cb7-23" aria-hidden="true" tabindex="-1"></a"><span class="ss">- </span><span class="va">[ ]</span> 內部連結邏輯相關</span>
+<span id="cb7-24"><a href="#cb7-24" aria-hidden="true" tabindex="-1"></a"><span class="ss">- </span><span class="va">[ ]</span> 外部連結權威可信</span>
+<span id="cb7-25"><a href="#cb7-25" aria-hidden="true" tabindex="-1"></a"><span class="ss">- </span><span class="va">[ ]</span> 相關文章推薦適當</span></code></pre></div>
 <h3 id="指標4模組化引用潛力目標-0.65">🎯 指標4：模組化引用潛力（目標
 &gt;0.65）</h3>
 <p>評估內容被拆解為引用片段的適配性：</p>
@@ -456,7 +426,7 @@ class="sourceCode markdown"><code class="sourceCode markdown"><span id="cb8-1"><
 <span id="cb8-17"><a href="#cb8-17" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>標註適用的場景和條件</span>
 <span id="cb8-18"><a href="#cb8-18" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb8-19"><a href="#cb8-19" aria-hidden="true" tabindex="-1"></a><span class="fu">#### ✅ 標準化格式</span></span>
-<span id="cb8-20"><a href="#cb8-20" aria-hidden="true" tabindex="-1"></a>**建議使用的格式：**</span>
+<span id="cb8-20"><a href="#cb8-20" aria-hidden="true" tabindex="-1"></a">**建議使用的格式：**</span>
 <span id="cb8-21"><a href="#cb8-21" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**定義**：什麼是XXX？</span>
 <span id="cb8-22"><a href="#cb8-22" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**原因**：為什麼需要XXX？</span>
 <span id="cb8-23"><a href="#cb8-23" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**方法**：如何實施XXX？</span>
@@ -465,14 +435,14 @@ class="sourceCode markdown"><code class="sourceCode markdown"><span id="cb8-1"><
 <span id="cb8-26"><a href="#cb8-26" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb8-27"><a href="#cb8-27" aria-hidden="true" tabindex="-1"></a><span class="fu">### 🎯 高模組化內容範例</span></span>
 <span id="cb8-28"><a href="#cb8-28" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb8-29"><a href="#cb8-29" aria-hidden="true" tabindex="-1"></a>**❌ 低模組化範例：**</span>
+<span id="cb8-29"><a href="#cb8-29" aria-hidden="true" tabindex="-1"></a">**❌ 低模組化範例：**</span>
 <span id="cb8-30"><a href="#cb8-30" aria-hidden="true" tabindex="-1"></a>&quot;在進行GEO優化時，需要考慮多個因素的綜合影響，這些因素相互關聯，缺一不可...&quot;</span>
 <span id="cb8-31"><a href="#cb8-31" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb8-32"><a href="#cb8-32" aria-hidden="true" tabindex="-1"></a>**✅ 高模組化範例：**</span>
+<span id="cb8-32"><a href="#cb8-32" aria-hidden="true" tabindex="-1"></a">**✅ 高模組化範例：**</span>
 <span id="cb8-33"><a href="#cb8-33" aria-hidden="true" tabindex="-1"></a>&quot;GEO優化的三個核心要素包括：</span>
 <span id="cb8-34"><a href="#cb8-34" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb8-35"><a href="#cb8-35" aria-hidden="true" tabindex="-1"></a><span class="ss">1. </span>**語義錨定**：確保內容主題明確，每段圍繞單一要點展開</span>
-<span id="cb8-36"><a href="#cb8-36" aria-hidden="true" tabindex="-1"></a><span class="ss">2. </span>**語境觸發**：涵蓋相關關鍵詞，能被多種查詢方式觸發</span>
+<span id="cb8-36"><a href="#cb8-36" aria-hidden="true" tabindex="-1"></a"><span class="ss">2. </span>**語境觸發**：涵蓋相關關鍵詞，能被多種查詢方式觸發</span>
 <span id="cb8-37"><a href="#cb8-37" aria-hidden="true" tabindex="-1"></a><span class="ss">3. </span>**語用重組**：內容可被拆解為FAQ、列表等模組化片段&quot;</span></code></pre></div>
 <h3 id="指標5多模態轉譯潛力目標-0.60">🎯 指標5：多模態轉譯潛力（目標
 &gt;0.60）</h3>
@@ -487,33 +457,33 @@ class="sourceCode markdown"><code class="sourceCode markdown"><span id="cb9-1"><
 <span id="cb9-7"><a href="#cb9-7" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="va">[ ]</span> 是否包含對比分析內容</span>
 <span id="cb9-8"><a href="#cb9-8" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="va">[ ]</span> 是否適合製作圖表或流程圖</span>
 <span id="cb9-9"><a href="#cb9-9" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb9-10"><a href="#cb9-10" aria-hidden="true" tabindex="-1"></a>**提升策略：**</span>
+<span id="cb9-10"><a href="#cb9-10" aria-hidden="true" tabindex="-1"></a">**提升策略：**</span>
 <span id="cb9-11"><a href="#cb9-11" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>增加統計數據和百分比</span>
 <span id="cb9-12"><a href="#cb9-12" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>設計清晰的步驟說明</span>
 <span id="cb9-13"><a href="#cb9-13" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>提供對比表格和分析</span>
 <span id="cb9-14"><a href="#cb9-14" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>規劃視覺化呈現方式</span>
 <span id="cb9-15"><a href="#cb9-15" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb9-16"><a href="#cb9-16" aria-hidden="true" tabindex="-1"></a><span class="fu">### 🎬 影音轉譯潛力</span></span>
-<span id="cb9-17"><a href="#cb9-17" aria-hidden="true" tabindex="-1"></a>**評估要點：**</span>
+<span id="cb9-17"><a href="#cb9-17" aria-hidden="true" tabindex="-1"></a">**評估要點：**</span>
 <span id="cb9-18"><a href="#cb9-18" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="va">[ ]</span> 內容是否適合口語化表達</span>
-<span id="cb9-19"><a href="#cb9-19" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="va">[ ]</span> 是否包含教學演示內容</span>
-<span id="cb9-20"><a href="#cb9-20" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="va">[ ]</span> 是否有互動問答元素</span>
-<span id="cb9-21"><a href="#cb9-21" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="va">[ ]</span> 是否包含實例和案例</span>
-<span id="cb9-22"><a href="#cb9-22" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb9-23"><a href="#cb9-23" aria-hidden="true" tabindex="-1"></a>**提升策略：**</span>
+<span id="cb9-19"><a href="#cb9-19" aria-hidden="true" tabindex="-1"></a"><span class="ss">- </span><span class="va">[ ]</span> 是否包含教學演示內容</span>
+<span id="cb9-20"><a href="#cb9-20" aria-hidden="true" tabindex="-1"></a"><span class="ss">- </span><span class="va">[ ]</span> 是否有互動問答元素</span>
+<span id="cb9-21"><a href="#cb9-21" aria-hidden="true" tabindex="-1"></a"><span class="ss">- </span><span class="va">[ ]</span> 是否包含實例和案例</span>
+<span id="cb9-22"><a href="#cb9-22" aria-hidden="true" tabindex="-1"></a"></span>
+<span id="cb9-23"><a href="#cb9-23" aria-hidden="true" tabindex="-1"></a">**提升策略：**</span>
 <span id="cb9-24"><a href="#cb9-24" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>增加實際操作案例</span>
 <span id="cb9-25"><a href="#cb9-25" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>設計互動式問答</span>
 <span id="cb9-26"><a href="#cb9-26" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>提供具體演示場景</span>
 <span id="cb9-27"><a href="#cb9-27" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>優化語言表達的自然度</span>
 <span id="cb9-28"><a href="#cb9-28" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb9-29"><a href="#cb9-29" aria-hidden="true" tabindex="-1"></a><span class="fu">### 🎙️ 語音轉譯潛力</span></span>
-<span id="cb9-30"><a href="#cb9-30" aria-hidden="true" tabindex="-1"></a>**評估要點：**</span>
+<span id="cb9-30"><a href="#cb9-30" aria-hidden="true" tabindex="-1"></a">**評估要點：**</span>
 <span id="cb9-31"><a href="#cb9-31" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="va">[ ]</span> 語言表達是否自然流暢</span>
-<span id="cb9-32"><a href="#cb9-32" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="va">[ ]</span> 是否避免過多專業術語</span>
-<span id="cb9-33"><a href="#cb9-33" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="va">[ ]</span> 是否包含明確的語音提示</span>
-<span id="cb9-34"><a href="#cb9-34" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="va">[ ]</span> 是否適合語音助理回答</span>
-<span id="cb9-35"><a href="#cb9-35" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb9-36"><a href="#cb9-36" aria-hidden="true" tabindex="-1"></a>**提升策略：**</span>
+<span id="cb9-32"><a href="#cb9-32" aria-hidden="true" tabindex="-1"></a"><span class="ss">- </span><span class="va">[ ]</span> 是否避免過多專業術語</span>
+<span id="cb9-33"><a href="#cb9-33" aria-hidden="true" tabindex="-1"></a"><span class="ss">- </span><span class="va">[ ]</span> 是否包含明確的語音提示</span>
+<span id="cb9-34"><a href="#cb9-34" aria-hidden="true" tabindex="-1"></a"><span class="ss">- </span><span class="va">[ ]</span> 是否適合語音助理回答</span>
+<span id="cb9-35"><a href="#cb9-35" aria-hidden="true" tabindex="-1"></a"></span>
+<span id="cb9-36"><a href="#cb9-36" aria-hidden="true" tabindex="-1"></a">**提升策略：**</span>
 <span id="cb9-37"><a href="#cb9-37" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>簡化專業術語表達</span>
 <span id="cb9-38"><a href="#cb9-38" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>增加口語化的解釋</span>
 <span id="cb9-39"><a href="#cb9-39" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>設計語音友好的結構</span>
@@ -584,7 +554,7 @@ class="sourceCode markdown"><code class="sourceCode markdown"><span id="cb13-1">
 <span id="cb13-16"><a href="#cb13-16" aria-hidden="true" tabindex="-1"></a><span class="fu">### ⚡ 間接競爭對手</span></span>
 <span id="cb13-17"><a href="#cb13-17" aria-hidden="true" tabindex="-1"></a>**定義**：不同行業但爭奪相同AI引用機會</span>
 <span id="cb13-18"><a href="#cb13-18" aria-hidden="true" tabindex="-1"></a>**分析重點**：</span>
-<span id="cb13-19"><a href="#cb13-19" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>內容策略創新點</span>
+<span id="cb13-19"><a href="#cb13-19" aria-hidden="true" tabindex="-1"></a"><span class="ss">- </span>內容策略創新點</span>
 <span id="cb13-20"><a href="#cb13-20" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>GEO技術實作水準</span>
 <span id="cb13-21"><a href="#cb13-21" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>用戶互動模式</span>
 <span id="cb13-22"><a href="#cb13-22" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>品牌權威度建立方式</span>
@@ -593,9 +563,9 @@ class="sourceCode markdown"><code class="sourceCode markdown"><span id="cb13-1">
 <span id="cb13-25"><a href="#cb13-25" aria-hidden="true" tabindex="-1"></a>**定義**：新興品牌或擴張中的相關企業</span>
 <span id="cb13-26"><a href="#cb13-26" aria-hidden="true" tabindex="-1"></a>**分析重點**：</span>
 <span id="cb13-27"><a href="#cb13-27" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>成長趨勢和投資重點</span>
-<span id="cb13-28"><a href="#cb13-28" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>技術創新和差異化策略</span>
-<span id="cb13-29"><a href="#cb13-29" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>市場進入策略</span>
-<span id="cb13-30"><a href="#cb13-30" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>未來威脅評估</span></code></pre></div>
+<span id="cb13-28"><a href="#cb13-28" aria-hidden="true" tabindex="-1"></a"><span class="ss">- </span>技術創新和差異化策略</span>
+<span id="cb13-29"><a href="#cb13-29" aria-hidden="true" tabindex="-1"></a"><span class="ss">- </span>市場進入策略</span>
+<span id="cb13-30"><a href="#cb13-30" aria-hidden="true" tabindex="-1"></a"><span class="ss">- </span>未來威脅評估</span></code></pre></div>
 <h4 id="競爭對手ai引用分析">🔍 競爭對手AI引用分析</h4>
 <div class="sourceCode" id="cb14"><pre
 class="sourceCode markdown"><code class="sourceCode markdown"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a><span class="fu">## AI引用競爭力評估</span></span>
@@ -614,19 +584,19 @@ class="sourceCode markdown"><code class="sourceCode markdown"><span id="cb14-1">
 <span id="cb14-14"><a href="#cb14-14" aria-hidden="true" tabindex="-1"></a><span class="ss">4. </span>分析引用趨勢變化</span>
 <span id="cb14-15"><a href="#cb14-15" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb14-16"><a href="#cb14-16" aria-hidden="true" tabindex="-1"></a><span class="fu">### 📈 競爭力評估指標</span></span>
-<span id="cb14-17"><a href="#cb14-17" aria-hidden="true" tabindex="-1"></a>| 評估維度 | 我方現況 | 競爭對手A | 競爭對手B | 行業平均 |</span>
+<span id="cb14-17"><a href="#cb14-17" aria-hidden="true" tabindex="-1"></a">| 評估維度 | 我方現況 | 競爭對手A | 競爭對手B | 行業平均 |</span>
 <span id="cb14-18"><a href="#cb14-18" aria-hidden="true" tabindex="-1"></a>|---------|---------|----------|----------|----------|</span>
-<span id="cb14-19"><a href="#cb14-19" aria-hidden="true" tabindex="-1"></a>| ChatGPT引用次數/月 | 15 | 32 | 8 | 18 |</span>
-<span id="cb14-20"><a href="#cb14-20" aria-hidden="true" tabindex="-1"></a>| 引用內容準確性 | 85% | 78% | 92% | 82% |</span>
-<span id="cb14-21"><a href="#cb14-21" aria-hidden="true" tabindex="-1"></a>| Schema標記覆蓋率 | 60% | 85% | 40% | 65% |</span>
-<span id="cb14-22"><a href="#cb14-22" aria-hidden="true" tabindex="-1"></a>| 多模態內容比例 | 30% | 50% | 15% | 35% |</span>
-<span id="cb14-23"><a href="#cb14-23" aria-hidden="true" tabindex="-1"></a>| 內容更新頻率 | 2次/月 | 4次/月 | 1次/月 | 2.5次/月 |</span>
+<span id="cb14-19"><a href="#cb14-19" aria-hidden="true" tabindex="-1"></a">| ChatGPT引用次數/月 | 15 | 32 | 8 | 18 |</span>
+<span id="cb14-20"><a href="#cb14-20" aria-hidden="true" tabindex="-1"></a">| 引用內容準確性 | 85% | 78% | 92% | 82% |</span>
+<span id="cb14-21"><a href="#cb14-21" aria-hidden="true" tabindex="-1"></a">| Schema標記覆蓋率 | 60% | 85% | 40% | 65% |</span>
+<span id="cb14-22"><a href="#cb14-22" aria-hidden="true" tabindex="-1"></a">| 多模態內容比例 | 30% | 50% | 15% | 35% |</span>
+<span id="cb14-23"><a href="#cb14-23" aria-hidden="true" tabindex="-1"></a">| 內容更新頻率 | 2次/月 | 4次/月 | 1次/月 | 2.5次/月 |</span>
 <span id="cb14-24"><a href="#cb14-24" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb14-25"><a href="#cb14-25" aria-hidden="true" tabindex="-1"></a><span class="fu">### 🎯 競爭差距分析</span></span>
 <span id="cb14-26"><a href="#cb14-26" aria-hidden="true" tabindex="-1"></a>**優勢領域**：引用準確性高於競爭對手</span>
-<span id="cb14-27"><a href="#cb14-27" aria-hidden="true" tabindex="-1"></a>**劣勢領域**：引用頻次和Schema標記覆蓋率偏低</span>
-<span id="cb14-28"><a href="#cb14-28" aria-hidden="true" tabindex="-1"></a>**機會點**：多模態內容有提升空間</span>
-<span id="cb14-29"><a href="#cb14-29" aria-hidden="true" tabindex="-1"></a>**威脅點**：競爭對手A在技術實作上領先</span></code></pre></div>
+<span id="cb14-27"><a href="#cb14-27" aria-hidden="true" tabindex="-1"></a">**劣勢領域**：引用頻次和Schema標記覆蓋率偏低</span>
+<span id="cb14-28"><a href="#cb14-28" aria-hidden="true" tabindex="-1"></a">**機會點**：多模態內容有提升空間</span>
+<span id="cb14-29"><a href="#cb14-29" aria-hidden="true" tabindex="-1"></a">**威脅點**：競爭對手A在技術實作上領先</span></code></pre></div>
 </div>
 <h3 id="競爭對手內容策略分析">📊 競爭對手內容策略分析</h3>
 <div class="sourceCode" id="cb15"><pre
@@ -644,23 +614,23 @@ class="sourceCode markdown"><code class="sourceCode markdown"><span id="cb15-1">
 <span id="cb15-12"><a href="#cb15-12" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="va">[ ]</span> 內容長度和結構化程度</span>
 <span id="cb15-13"><a href="#cb15-13" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="va">[ ]</span> 多媒體使用情況（圖片、影片、圖表）</span>
 <span id="cb15-14"><a href="#cb15-14" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="va">[ ]</span> 內部連結策略和網站架構</span>
-<span id="cb15-15"><a href="#cb15-15" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="va">[ ]</span> 社群媒體內容分發策略</span>
+<span id="cb15-15"><a href="#cb15-15" aria-hidden="true" tabindex="-1"></a"><span class="ss">- </span><span class="va">[ ]</span> 社群媒體內容分發策略</span>
 <span id="cb15-16"><a href="#cb15-16" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="va">[ ]</span> Schema標記和技術SEO實作</span>
 <span id="cb15-17"><a href="#cb15-17" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="va">[ ]</span> 內容更新和維護頻率</span>
-<span id="cb15-18"><a href="#cb15-18" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="va">[ ]</span> 用戶互動和評論回應機制</span>
+<span id="cb15-18"><a href="#cb15-18" aria-hidden="true" tabindex="-1"></a"><span class="ss">- </span><span class="va">[ ]</span> 用戶互動和評論回應機制</span>
 <span id="cb15-19"><a href="#cb15-19" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb15-20"><a href="#cb15-20" aria-hidden="true" tabindex="-1"></a><span class="fu">### 🎯 差異化機會識別</span></span>
-<span id="cb15-21"><a href="#cb15-21" aria-hidden="true" tabindex="-1"></a>**內容空白分析：**</span>
+<span id="cb15-21"><a href="#cb15-21" aria-hidden="true" tabindex="-1"></a">**內容空白分析：**</span>
 <span id="cb15-22"><a href="#cb15-22" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>競爭對手未覆蓋的主題領域</span>
-<span id="cb15-23"><a href="#cb15-23" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>回答不完整的常見問題</span>
-<span id="cb15-24"><a href="#cb15-24" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>過時或準確性不足的資訊</span>
-<span id="cb15-25"><a href="#cb15-25" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>缺乏多模態呈現的熱門話題</span>
-<span id="cb15-26"><a href="#cb15-26" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb15-27"><a href="#cb15-27" aria-hidden="true" tabindex="-1"></a>**技術優化機會：**</span>
-<span id="cb15-28"><a href="#cb15-28" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Schema標記實作不完整的競爭對手</span>
-<span id="cb15-29"><a href="#cb15-29" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>載入速度較慢的競爭對手網站</span>
-<span id="cb15-30"><a href="#cb15-30" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>移動端體驗不佳的競爭對手</span>
-<span id="cb15-31"><a href="#cb15-31" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>AI引用友好性不足的內容結構</span></code></pre></div>
+<span id="cb15-23"><a href="#cb15-23" aria-hidden="true" tabindex="-1"></a"><span class="ss">- </span>回答不完整的常見問題</span>
+<span id="cb15-24"><a href="#cb15-24" aria-hidden="true" tabindex="-1"></a"><span class="ss">- </span>過時或準確性不足的資訊</span>
+<span id="cb15-25"><a href="#cb15-25" aria-hidden="true" tabindex="-1"></a"><span class="ss">- </span>缺乏多模態呈現的熱門話題</span>
+<span id="cb15-26"><a href="#cb15-26" aria-hidden="true" tabindex="-1"></a"></span>
+<span id="cb15-27"><a href="#cb15-27" aria-hidden="true" tabindex="-1"></a">**技術優化機會：**</span>
+<span id="cb15-28"><a href="#cb15-28" aria-hidden="true" tabindex="-1"></a"><span class="ss">- </span>Schema標記實作不完整的競爭對手</span>
+<span id="cb15-29"><a href="#cb15-29" aria-hidden="true" tabindex="-1"></a"><span class="ss">- </span>載入速度較慢的競爭對手網站</span>
+<span id="cb15-30"><a href="#cb15-30" aria-hidden="true" tabindex="-1"></a"><span class="ss">- </span>移動端體驗不佳的競爭對手</span>
+<span id="cb15-31"><a href="#cb15-31" aria-hidden="true" tabindex="-1"></a"><span class="ss">- </span>AI引用友好性不足的內容結構</span></code></pre></div>
 <hr />
 <h2 id="監測工具與自動化追蹤">📊 監測工具與自動化追蹤</h2>
 <h3 id="推薦工具組合">🛠️ 推薦工具組合</h3>
@@ -670,78 +640,78 @@ class="sourceCode markdown"><code class="sourceCode markdown"><span id="cb15-1">
 class="sourceCode markdown"><code class="sourceCode markdown"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a><span class="fu">## GEO監測工具矩陣</span></span>
 <span id="cb16-2"><a href="#cb16-2" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb16-3"><a href="#cb16-3" aria-hidden="true" tabindex="-1"></a><span class="fu">### 🤖 AI引用追蹤工具</span></span>
-<span id="cb16-4"><a href="#cb16-4" aria-hidden="true" tabindex="-1"></a>**基礎工具：**</span>
+<span id="cb16-4"><a href="#cb16-4" aria-hidden="true" tabindex="-1"></a">**基礎工具：**</span>
 <span id="cb16-5"><a href="#cb16-5" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Google Alerts**：免費，基礎品牌監測</span>
 <span id="cb16-6"><a href="#cb16-6" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Mention**：社群媒體和網路提及監測</span>
 <span id="cb16-7"><a href="#cb16-7" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Brand24**：進階品牌監測和情感分析</span>
 <span id="cb16-8"><a href="#cb16-8" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb16-9"><a href="#cb16-9" aria-hidden="true" tabindex="-1"></a>**專業工具：**</span>
+<span id="cb16-9"><a href="#cb16-9" aria-hidden="true" tabindex="-1"></a">**專業工具：**</span>
 <span id="cb16-10"><a href="#cb16-10" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**GEO Monitor**：專門的AI引用追蹤</span>
 <span id="cb16-11"><a href="#cb16-11" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Perplexity Tracker**：Perplexity平台引用監測</span>
 <span id="cb16-12"><a href="#cb16-12" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**ChatGPT Citation Checker**：OpenAI平台引用分析</span>
 <span id="cb16-13"><a href="#cb16-13" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb16-14"><a href="#cb16-14" aria-hidden="true" tabindex="-1"></a><span class="fu">### 📊 內容分析工具</span></span>
-<span id="cb16-15"><a href="#cb16-15" aria-hidden="true" tabindex="-1"></a>**SEO分析：**</span>
+<span id="cb16-15"><a href="#cb16-15" aria-hidden="true" tabindex="-1"></a">**SEO分析：**</span>
 <span id="cb16-16"><a href="#cb16-16" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**SEMrush**：關鍵詞排名和競爭對手分析</span>
-<span id="cb16-17"><a href="#cb16-17" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Ahrefs**：反向連結和內容表現分析</span>
-<span id="cb16-18"><a href="#cb16-18" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Screaming Frog**：技術SEO和結構化資料檢查</span>
+<span id="cb16-17"><a href="#cb16-17" aria-hidden="true" tabindex="-1"></a"><span class="ss">- </span>**Ahrefs**：反向連結和內容表現分析</span>
+<span id="cb16-18"><a href="#cb16-18" aria-hidden="true" tabindex="-1"></a"><span class="ss">- </span>**Screaming Frog**：技術SEO和結構化資料檢查</span>
 <span id="cb16-19"><a href="#cb16-19" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb16-20"><a href="#cb16-20" aria-hidden="true" tabindex="-1"></a>**GEO專用：**</span>
+<span id="cb16-20"><a href="#cb16-20" aria-hidden="true" tabindex="-1"></a">**GEO專用：**</span>
 <span id="cb16-21"><a href="#cb16-21" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**GEO SearchAware Optimizer**：五大指標評估</span>
-<span id="cb16-22"><a href="#cb16-22" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Schema Validator**：結構化資料驗證</span>
-<span id="cb16-23"><a href="#cb16-23" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Content AI Readiness Checker**：AI友好度評估</span>
+<span id="cb16-22"><a href="#cb16-22" aria-hidden="true" tabindex="-1"></a"><span class="ss">- </span>**Schema Validator**：結構化資料驗證</span>
+<span id="cb16-23"><a href="#cb16-23" aria-hidden="true" tabindex="-1"></a"><span class="ss">- </span>**Content AI Readiness Checker**：AI友好度評估</span>
 <span id="cb16-24"><a href="#cb16-24" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb16-25"><a href="#cb16-25" aria-hidden="true" tabindex="-1"></a><span class="fu">### 📈 數據整合平台</span></span>
-<span id="cb16-26"><a href="#cb16-26" aria-hidden="true" tabindex="-1"></a>**儀表板工具：**</span>
-<span id="cb16-27"><a href="#cb16-27" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Google Data Studio**：免費數據視覺化</span>
-<span id="cb16-28"><a href="#cb16-28" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Tableau**：進階數據分析和視覺化</span>
-<span id="cb16-29"><a href="#cb16-29" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Power BI**：企業級商業智能分析</span>
+<span id="cb16-26"><a href="#cb16-26" aria-hidden="true" tabindex="-1"></a">**儀表板工具：**</span>
+<span id="cb16-27"><a href="#cb16-27" aria-hidden="true" tabindex="-1"></a"><span class="ss">- </span>**Google Data Studio**：免費數據視覺化</span>
+<span id="cb16-28"><a href="#cb16-28" aria-hidden="true" tabindex="-1"></a"><span class="ss">- </span>**Tableau**：進階數據分析和視覺化</span>
+<span id="cb16-29"><a href="#cb16-29" aria-hidden="true" tabindex="-1"></a"><span class="ss">- </span>**Power BI**：企業級商業智能分析</span>
 <span id="cb16-30"><a href="#cb16-30" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb16-31"><a href="#cb16-31" aria-hidden="true" tabindex="-1"></a>**自定義方案：**</span>
-<span id="cb16-32"><a href="#cb16-32" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Python + API**：客製化數據收集和分析</span>
-<span id="cb16-33"><a href="#cb16-33" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Google Sheets + Apps Script**：輕量級自動化</span>
-<span id="cb16-34"><a href="#cb16-34" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Zapier**：工具間自動化連接</span></code></pre></div>
+<span id="cb16-31"><a href="#cb16-31" aria-hidden="true" tabindex="-1"></a">**自定義方案：**</span>
+<span id="cb16-32"><a href="#cb16-32" aria-hidden="true" tabindex="-1"></a"><span class="ss">- </span>**Python + API**：客製化數據收集和分析</span>
+<span id="cb16-33"><a href="#cb16-33" aria-hidden="true" tabindex="-1"></a"><span class="ss">- </span>**Google Sheets + Apps Script**：輕量級自動化</span>
+<span id="cb16-34"><a href="#cb16-34" aria-hidden="true" tabindex="-1"></a"><span class="ss">- </span>**Zapier**：工具間自動化連接</span></code></pre></div>
 <h4 id="監測儀表板設計">📊 監測儀表板設計</h4>
 <div class="sourceCode" id="cb17"><pre
 class="sourceCode markdown"><code class="sourceCode markdown"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a><span class="fu">## GEO成效儀表板</span></span>
 <span id="cb17-2"><a href="#cb17-2" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb17-3"><a href="#cb17-3" aria-hidden="true" tabindex="-1"></a><span class="fu">### 📈 核心KPI模組</span></span>
-<span id="cb17-4"><a href="#cb17-4" aria-hidden="true" tabindex="-1"></a>**AI引用概覽：**</span>
+<span id="cb17-4"><a href="#cb17-4" aria-hidden="true" tabindex="-1"></a">**AI引用概覽：**</span>
 <span id="cb17-5"><a href="#cb17-5" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>本月總引用次數及成長率</span>
 <span id="cb17-6"><a href="#cb17-6" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>主要AI平台引用分布（ChatGPT、Claude、Perplexity）</span>
 <span id="cb17-7"><a href="#cb17-7" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>引用內容準確性評分</span>
-<span id="cb17-8"><a href="#cb17-8" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>品牌提及頻率趨勢</span>
+<span id="cb17-8"><a href="#cb17-8" aria-hidden="true" tabindex="-1"></a"><span class="ss">- </span>品牌提及頻率趨勢</span>
 <span id="cb17-9"><a href="#cb17-9" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb17-10"><a href="#cb17-10" aria-hidden="true" tabindex="-1"></a>**內容品質指標：**</span>
+<span id="cb17-10"><a href="#cb17-10" aria-hidden="true" tabindex="-1"></a">**內容品質指標：**</span>
 <span id="cb17-11"><a href="#cb17-11" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>五大GEO指標平均分數</span>
 <span id="cb17-12"><a href="#cb17-12" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>低分內容識別和改善進度</span>
-<span id="cb17-13"><a href="#cb17-13" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>新發布內容的初始評分</span>
-<span id="cb17-14"><a href="#cb17-14" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>優化前後的效果對比</span>
+<span id="cb17-13"><a href="#cb17-13" aria-hidden="true" tabindex="-1"></a"><span class="ss">- </span>新發布內容的初始評分</span>
+<span id="cb17-14"><a href="#cb17-14" aria-hidden="true" tabindex="-1"></a"><span class="ss">- </span>優化前後的效果對比</span>
 <span id="cb17-15"><a href="#cb17-15" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb17-16"><a href="#cb17-16" aria-hidden="true" tabindex="-1"></a>**競爭分析模組：**</span>
+<span id="cb17-16"><a href="#cb17-16" aria-hidden="true" tabindex="-1"></a">**競爭分析模組：**</span>
 <span id="cb17-17"><a href="#cb17-17" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>行業引用排名變化</span>
-<span id="cb17-18"><a href="#cb17-18" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>主要競爭對手表現追蹤</span>
-<span id="cb17-19"><a href="#cb17-19" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>市場份額變化趨勢</span>
-<span id="cb17-20"><a href="#cb17-20" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>差異化機會識別</span>
+<span id="cb17-18"><a href="#cb17-18" aria-hidden="true" tabindex="-1"></a"><span class="ss">- </span>主要競爭對手表現追蹤</span>
+<span id="cb17-19"><a href="#cb17-19" aria-hidden="true" tabindex="-1"></a"><span class="ss">- </span>市場份額變化趨勢</span>
+<span id="cb17-20"><a href="#cb17-20" aria-hidden="true" tabindex="-1"></a"><span class="ss">- </span>差異化機會識別</span>
 <span id="cb17-21"><a href="#cb17-21" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb17-22"><a href="#cb17-22" aria-hidden="true" tabindex="-1"></a>**ROI效益模組：**</span>
-<span id="cb17-23"><a href="#cb17-23" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>優化投入成本統計</span>
-<span id="cb17-24"><a href="#cb17-24" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>直接和間接收益計算</span>
-<span id="cb17-25"><a href="#cb17-25" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>投資回報率趨勢</span>
-<span id="cb17-26"><a href="#cb17-26" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>預期收益預測</span>
-<span id="cb17-27"><a href="#cb17-27" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb17-22"><a href="#cb17-22" aria-hidden="true" tabindex="-1"></a">**ROI效益模組：**</span>
+<span id="cb17-23"><a href="#cb17-23" aria-hidden="true" tabindex="-1"></a"><span class="ss">- </span>優化投入成本統計</span>
+<span id="cb17-24"><a href="#cb17-24" aria-hidden="true" tabindex="-1"></a"><span class="ss">- </span>直接和間接收益計算</span>
+<span id="cb17-25"><a href="#cb17-25" aria-hidden="true" tabindex="-1"></a"><span class="ss">- </span>投資回報率趨勢</span>
+<span id="cb17-26"><a href="#cb17-26" aria-hidden="true" tabindex="-1"></a"><span class="ss">- </span>預期收益預測</span>
+<span id="cb17-27"><a href="#cb17-27" aria-hidden="true" tabindex="-1"></a"></span>
 <span id="cb17-28"><a href="#cb17-28" aria-hidden="true" tabindex="-1"></a><span class="fu">### 🔔 自動預警系統</span></span>
-<span id="cb17-29"><a href="#cb17-29" aria-hidden="true" tabindex="-1"></a>**關鍵指標預警：**</span>
-<span id="cb17-30"><a href="#cb17-30" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>AI引用次數異常下降（&gt;20%）</span>
+<span id="cb17-29"><a href="#cb17-29" aria-hidden="true" tabindex="-1"></a">**關鍵指標預警：**</span>
+<span id="cb17-30"><a href="#cb17-30" aria-hidden="true" tabindex="-1"></a"><span class="ss">- </span>AI引用次數異常下降（&gt;20%）</span>
 <span id="cb17-31"><a href="#cb17-31" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>競爭對手引用超越預警</span>
 <span id="cb17-32"><a href="#cb17-32" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>內容品質分數跌破閾值</span>
-<span id="cb17-33"><a href="#cb17-33" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>技術錯誤導致的Schema失效</span>
+<span id="cb17-33"><a href="#cb17-33" aria-hidden="true" tabindex="-1"></a"><span class="ss">- </span>技術錯誤導致的Schema失效</span>
 <span id="cb17-34"><a href="#cb17-34" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb17-35"><a href="#cb17-35" aria-hidden="true" tabindex="-1"></a>**機會發現預警：**</span>
-<span id="cb17-36"><a href="#cb17-36" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>新興關鍵詞引用機會</span>
+<span id="cb17-35"><a href="#cb17-35" aria-hidden="true" tabindex="-1"></a">**機會發現預警：**</span>
+<span id="cb17-36"><a href="#cb17-36" aria-hidden="true" tabindex="-1"></a"><span class="ss">- </span>新興關鍵詞引用機會</span>
 <span id="cb17-37"><a href="#cb17-37" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>競爭對手內容空白發現</span>
-<span id="cb17-38"><a href="#cb17-38" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>AI平台演算法更新影響</span>
-<span id="cb17-39"><a href="#cb17-39" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>行業趨勢變化提醒</span></code></pre></div>
+<span id="cb17-38"><a href="#cb17-38" aria-hidden="true" tabindex="-1"></a"><span class="ss">- </span>AI平台演算法更新影響</span>
+<span id="cb17-39"><a href="#cb17-39" aria-hidden="true" tabindex="-1"></a"><span class="ss">- </span>行業趨勢變化提醒</span></code></pre></div>
 </div>
 <h3 id="監測頻率與優化循環">📅 監測頻率與優化循環</h3>
 <section id="分層監測時程" class="monitoring-schedule">
@@ -750,44 +720,45 @@ class="sourceCode markdown"><code class="sourceCode markdown"><span id="cb17-1">
 class="sourceCode markdown"><code class="sourceCode markdown"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a><span class="fu">## 監測與優化循環</span></span>
 <span id="cb18-2"><a href="#cb18-2" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb18-3"><a href="#cb18-3" aria-hidden="true" tabindex="-1"></a><span class="fu">### 📊 每日監測（Daily）</span></span>
-<span id="cb18-4"><a href="#cb18-4" aria-hidden="true" tabindex="-1"></a>**自動化指標：**</span>
+<span id="cb18-4"><a href="#cb18-4" aria-hidden="true" tabindex="-1"></a">**自動化指標：**</span>
 <span id="cb18-5"><a href="#cb18-5" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="va">[ ]</span> AI引用異常檢測</span>
 <span id="cb18-6"><a href="#cb18-6" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="va">[ ]</span> 網站技術健康度檢查</span>
 <span id="cb18-7"><a href="#cb18-7" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="va">[ ]</span> 新內容發布後的初始表現</span>
-<span id="cb18-8"><a href="#cb18-8" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="va">[ ]</span> 競爭對手重大更新監測</span>
+<span id="cb18-8"><a href="#cb18-8" aria-hidden="true" tabindex="-1"></a"><span class="ss">- </span><span class="va">[ ]</span> 競爭對手重大更新監測</span>
 <span id="cb18-9"><a href="#cb18-9" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb18-10"><a href="#cb18-10" aria-hidden="true" tabindex="-1"></a>**處理時間**：30分鐘/天</span>
-<span id="cb18-11"><a href="#cb18-11" aria-hidden="true" tabindex="-1"></a>**責任人**：GEO專員</span>
-<span id="cb18-12"><a href="#cb18-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-10"><a href="#cb18-10" aria-hidden="true" tabindex="-1"></a">**處理時間**：30分鐘/天</span>
+<span id="cb18-11"><a href="#cb18-11" aria-hidden="true" tabindex="-1"></a">**責任人**：GEO專員</span>
+<span id="cb18-12"><a href="#cb18-12" aria-hidden="true" tabindex="-1"></a"></span>
 <span id="cb18-13"><a href="#cb18-13" aria-hidden="true" tabindex="-1"></a><span class="fu">### 📈 週度分析（Weekly）</span></span>
-<span id="cb18-14"><a href="#cb18-14" aria-hidden="true" tabindex="-1"></a>**深度分析項目：**</span>
-<span id="cb18-15"><a href="#cb18-15" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="va">[ ]</span> 週度AI引用統計報告</span>
-<span id="cb18-16"><a href="#cb18-16" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="va">[ ]</span> 內容優化效果評估</span>
-<span id="cb18-17"><a href="#cb18-17" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="va">[ ]</span> 用戶反饋和互動分析</span>
-<span id="cb18-18"><a href="#cb18-18" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="va">[ ]</span> 下週優化重點規劃</span>
+<span id="cb18-14"><a href="#cb18-14" aria-hidden="true" tabindex="-1"></a">**深度分析項目：**</span>
+<span id="cb18-15"><a href="#cb18-15" aria-hidden="true" tabindex="-1"></a"><span class="ss">- </span><span class="va">[ ]</span> 週度AI引用統計報告</span>
+<span id="cb18-16"><a href="#cb18-16" aria-hidden="true" tabindex="-1"></a"><span class="ss">- </span><span class="va">[ ]</span> 內容優化效果評估</span>
+<span id="cb18-17"><a href="#cb18-17" aria-hidden="true" tabindex="-1"></a"><span class="ss">- </span><span class="va">[ ]</span> 用戶反饋和互動分析</span>
+<span id="cb18-18"><a href="#cb18-18" aria-hidden="true" tabindex="-1"></a"><span class="ss">- </span><span class="va">[ ]</span> 下週優化重點規劃</span>
 <span id="cb18-19"><a href="#cb18-19" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb18-20"><a href="#cb18-20" aria-hidden="true" tabindex="-1"></a>**處理時間**：3小時/週</span>
-<span id="cb18-21"><a href="#cb18-21" aria-hidden="true" tabindex="-1"></a>**責任人**：內容策略師</span>
-<span id="cb18-22"><a href="#cb18-22" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-20"><a href="#cb18-20" aria-hidden="true" tabindex="-1"></a">**處理時間**：3小時/週</span>
+<span id="cb18-21"><a href="#cb18-21" aria-hidden="true" tabindex="-1"></a">**責任人**：內容策略師</span>
+<span id="cb18-22"><a href="#cb18-22" aria-hidden="true" tabindex="-1"></a"></span>
 <span id="cb18-23"><a href="#cb18-23" aria-hidden="true" tabindex="-1"></a><span class="fu">### 📊 月度評估（Monthly）</span></span>
-<span id="cb18-24"><a href="#cb18-24" aria-hidden="true" tabindex="-1"></a>**全面評估項目：**</span>
-<span id="cb18-25"><a href="#cb18-25" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="va">[ ]</span> 五大GEO指標月度趨勢</span>
-<span id="cb18-26"><a href="#cb18-26" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="va">[ ]</span> ROI效益全面計算</span>
-<span id="cb18-27"><a href="#cb18-27" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="va">[ ]</span> 競爭對手策略變化分析</span>
-<span id="cb18-28"><a href="#cb18-28" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="va">[ ]</span> 下月戰略調整建議</span>
+<span id="cb18-24"><a href="#cb18-24" aria-hidden="true" tabindex="-1"></a">**全面評估項目：**</span>
+<span id="cb18-25"><a href="#cb18-25" aria-hidden="true" tabindex="-1"></a"><span class="ss">- </span><span class="va">[ ]</span> 五大GEO指標月度趨勢</span>
+<span id="cb18-26"><a href="#cb18-26" aria-hidden="true" tabindex="-1"></a"><span class="ss">- </span><span class="va">[ ]</span> ROI效益全面計算</span>
+<span id="cb18-27"><a href="#cb18-27" aria-hidden="true" tabindex="-1"></a"><span class="ss">- </span><span class="va">[ ]</span> 競爭對手策略變化分析</span>
+<span id="cb18-28"><a href="#cb18-28" aria-hidden="true" tabindex="-1"></a"><span class="ss">- </span><span class="va">[ ]</span> 下月戰略調整建議</span>
 <span id="cb18-29"><a href="#cb18-29" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb18-30"><a href="#cb18-30" aria-hidden="true" tabindex="-1"></a>**處理時間**：1天/月</span>
-<span id="cb18-31"><a href="#cb18-31" aria-hidden="true" tabindex="-1"></a>**責任人**：數位行銷經理</span>
-<span id="cb18-32"><a href="#cb18-32" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-30"><a href="#cb18-30" aria-hidden="true" tabindex="-1"></a">**處理時間**：1天/月</span>
+<span id="cb18-31"><a href="#cb18-31" aria-hidden="true" tabindex="-1"></a">**責任人**：數位行銷經理</span>
+<span id="cb18-32"><a href="#cb18-32" aria-hidden="true" tabindex="-1"></a"></span>
 <span id="cb18-33"><a href="#cb18-33" aria-hidden="true" tabindex="-1"></a><span class="fu">### 🎯 季度戰略檢討（Quarterly）</span></span>
-<span id="cb18-34"><a href="#cb18-34" aria-hidden="true" tabindex="-1"></a>**戰略層面檢討：**</span>
-<span id="cb18-35"><a href="#cb18-35" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="va">[ ]</span> 年度目標達成進度評估</span>
-<span id="cb18-36"><a href="#cb18-36" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="va">[ ]</span> 市場變化和技術發展應對</span>
-<span id="cb18-37"><a href="#cb18-37" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="va">[ ]</span> 預算分配和資源優化</span>
-<span id="cb18-38"><a href="#cb18-38" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="va">[ ]</span> 長期發展戰略調整</span>
-<span id="cb18-39"><a href="#cb18-39" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb18-40"><a href="#cb18-40" aria-hidden="true" tabindex="-1"></a>**處理時間**：3天/季</span>
-<span id="cb18-41"><a href="#cb18-41" aria-hidden="true" tabindex="-1"></a>**責任人**：高階管理層</span></code></pre></div>
+<span id="cb18-34"><a href="#cb18-34" aria-hidden="true" tabindex="-1"></a">**戰略層面檢討：**</span>
+<span id="cb18-35"><a href="#cb18-35" aria-hidden="true" tabindex="-1"></a"><span class="ss">- </span><span class="va">[ ]</span> 年度目標達成進度評估</span>
+<span id="cb18-36"><a href="#cb18-36" aria-hidden="true" tabindex="-1"></a"><span class="ss">- </span><span class="va">[ ]</span> 市場變化和技術發展應對</span>
+<span id="cb18-37"><a href="#cb18-37" aria-hidden="true" tabindex="-1"></a"><span class="ss">- </span><span class="va">[ ]</span> 預算分配和資源優化</span>
+<span id="cb18-38"><a href="#cb18-38" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="va">[ ]</span> 預算分配和資源優化</span>
+<span id="cb18-39"><a href="#cb18-39" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="va">[ ]</span> 長期發展戰略調整</span>
+<span id="cb18-40"><a href="#cb18-40" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-41"><a href="#cb18-41" aria-hidden="true" tabindex="-1"></a">**處理時間**：3天/季</span>
+<span id="cb18-42"><a href="#cb18-42" aria-hidden="true" tabindex="-1"></a">**責任人**：高階管理層</span></code></pre></div>
 </section>
 <hr />
 <h2 id="geo成效評估常見問題">❓ GEO成效評估常見問題</h2>
