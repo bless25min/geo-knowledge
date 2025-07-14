@@ -76,19 +76,6 @@
 4. 📊 追蹤成效數據 → 持續改善策略
 ```
 
-### ⚡ 對實務者
-```bash
-# 克隆專案
-git clone https://github.com/bless25min/GEO-Knowledge.git
-
-# 瀏覽工具庫
-cd GEO-Knowledge
-open tools-README.html
-
-# 使用檢查清單開始優化現有內容
-open tools-checklists.html
-```
-
 ### 🤝 對貢獻者
 參考 [貢獻指南](https://geo.25min.co/contributing.html) 加入我們的開源社群！
 
