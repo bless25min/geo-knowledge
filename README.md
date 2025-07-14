@@ -207,19 +207,6 @@ open tools-checklists.html
 - 📚 **研究方向**：AI 平台內容召回機制、語義理解技術
 - 🌐 **聯絡方式**：[關於頁面](https://geo.25min.co/about.html) | [GitHub](https://github.com/bless25min)
 
-## 📄 授權協議
-
-本專案採用 [MIT License](LICENSE) 開源授權。
-
-```
-MIT License
-
-Copyright (c) 2025 廖天佑 Bless Liao
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files...
-```
-
 ## 🙏 致謝
 
 感謝以下貢獻者和支持者：
